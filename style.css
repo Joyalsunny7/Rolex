@@ -1,0 +1,314 @@
+.header {
+    display: flex;
+    background: linear-gradient(90deg, #0b3e27, #197149);
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    color: #fff;
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    font-weight: 549;
+    cursor: pointer;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.image {
+    margin-left: 400px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.body {
+    margin: 0;
+    position: relative;
+    padding:0;
+}
+
+.tags {
+    display: flex;
+    cursor: pointer;
+    margin-right: 120px;
+    font-family: "Helvetica Now Text", Helvetica, Arial;
+}
+
+.menu:hover {
+    color: rgb(42, 130, 95);
+}
+
+.vid {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.vid video {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: larger;
+    opacity: 0.8;
+    line-height: 1.4;
+    z-index: 2;
+}
+
+.textrol {
+    text-align: center;
+    font-size: 80px;
+    line-height: 1.5px;
+}
+.article{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 60px;
+}
+.explore{
+    color: rgb(18 119 73);
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.para{
+    font-family:"Helvetica Now Text", Helvetica,  sans-serif;
+    color: rgb(105, 106, 105);
+    letter-spacing: 1.5;
+    font-size: larger;
+    line-height: 1.7;
+}
+.hoverol{
+    color:#0a663c;
+    margin-left: 885px;
+    font-family:"Helvetica Now Text", Helvetica,  sans-serif;
+    font-weight: 600;
+}
+.hoverol:hover{
+    color: black;
+    cursor: pointer;
+}
+.captioncontrol {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.config {
+    border-radius: 12px;
+    background: linear-gradient(90deg, #0b3e27, #197149);
+    color: #fff;
+    font-family: "Helvetica Now Text", Helvetica, sans-serif;
+    font-weight: 570;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    left:20rem;
+}
+
+.caption{
+    font-size: 16px; 
+    font-family:"Helvetica Now Text", Helvetica,  sans-serif;
+    font-weight: 600;
+}
+.caption:hover{
+    color: #197149;
+    cursor: pointer;
+}
+
+.config:hover{
+    background: #31a16f;
+    cursor: pointer;
+}
+.aside{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.photo{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1; 
+    border: bottom 20px;
+    cursor: pointer;
+}
+.aside {
+    position: relative; 
+    display: inline-block; 
+}
+.overlay-text {
+    font-family:"Helvetica Now Text", Helvetica,  sans-serif;
+    position: absolute;
+    color: rgb(60, 59, 59); 
+    z-index: 1; 
+    cursor: pointer;
+}
+
+.boldtext {
+    font-size: 40px;
+    font-weight: bold;
+    top: 500px; 
+    left: 100px;
+    cursor: pointer;
+}
+
+.normaltext {
+    font-size: 25px; 
+    top: 570px; 
+    left: 100px; 
+    cursor: pointer;
+}
+
+.tagtext {
+    font-size: 20px; 
+    top: 620px; 
+    left: 100px;
+    font-weight: 600; 
+    cursor: pointer;
+}
+.tagtext:hover{
+    color: rgb(110, 110, 110);
+}
+.sub{
+    font-family:"Helvetica Now Text", Helvetica,  sans-serif;
+    color: #31a16f;
+    font-size: small;
+    margin-top: 24px;
+}
+.homea{
+    display:flex;
+    
+}
+.Home{
+    text-decoration: none;
+    color: black;
+}
+.shire{
+    margin-top: 0px;
+    font-family:"Helvetica Now Text", Helvetica,  sans-serif;
+    font-weight: 600;
+}
+.sharee{
+    display: flex;
+    margin-top: 40px;
+}
+.foottags{
+    color: #31a16f;
+    margin-left: 10px;
+}
+.lastimg{
+    background-color: rgb(233, 238, 238); 
+    margin-top: 5rem
+    width:100%;
+    height: 100%;
+}
+.img{
+    margin-top: 70px;
+    margin-left: 150PX;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    padding:100px;
+    margin-left: 400px;
+    top: 0;
+    padding-top: 0;
+    column-gap: 40px;
+    cursor: pointer;
+}
+
+.column {
+    width: 30%;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+h2:hover{
+    color: #0a663c;
+    cursor: pointer;
+}
+.tail{
+    display:flex;
+    justify-content: space-around;
+    font-size:15px ;
+    margin-left: 20px;
+    color: rgb(88, 99, 99);
+}
+.footset{
+    position: relative;
+    display: inline-block;
+}
+.footimg{
+    width:100%;
+}
+.lasttext{
+    position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.smalltext{
+font-weight: 700;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
